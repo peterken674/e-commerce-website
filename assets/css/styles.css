@@ -10,8 +10,8 @@
 
 /*===== Colors =====*/
 :root {
-  --first-color: #E55947;
-  --first-color-alt: #D2321E;
+  --first-color: #e547c3;
+  --first-color-alt: #d21eba;
   --white-color: #FAFAFF;
   --dark-color: #101010;
   --dark-color-light: #606060;
@@ -167,6 +167,7 @@ img {
 
 .nav__logo{
     font-weight: var(--font-bold);
+    font-size: 1.2rem
 }
 
 .nav__cart{
@@ -378,7 +379,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(229, 89, 71, .2);
+    background: rgba(229, 71, 216, 0.2);
     transition: .3s;
 }
 
