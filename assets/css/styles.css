@@ -227,6 +227,7 @@ img {
     padding: 1rem;
     font-size: var(--small-font-size);
     font-weight: var(--font-semi);
+    border-radius: 0.3rem;
     transition: 0.3s;
 }
 
@@ -282,12 +283,20 @@ img {
     row-gap: 2rem;
 }
 
-.feature__product{
+/* .feature__product{
     transition: .3s;
 }
 
 .feature__product:hover{
     transform: translateY(-.5rem);
+} */
+
+.feature__product img{
+    transition: linear .2s;
+}
+
+.feature__product img:hover{
+    transform: scale(1.6);
 }
 
 .featured__box{
@@ -440,10 +449,12 @@ img {
 
 .footer__link, .footer__social{
     color: var(--dark-color-light);
+    transition: .3s;
 }
 
-.footer__link:hover{
-    text-decoration: underline;
+.footer__link:hover, .footer__social:hover{
+    /* text-decoration: underline; */
+    color: var(--white-color);
 }
 
 .footer__social{
