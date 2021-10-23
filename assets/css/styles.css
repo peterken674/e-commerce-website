@@ -334,7 +334,7 @@ img {
 
 /*===== OFFER =====*/
 .offer__bg{
-    background: url('assets/img/offer.jpg');
+    background: url('../img/offer.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
